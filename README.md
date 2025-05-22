@@ -7,3 +7,4 @@ EOF
 
 ```bash
 go run main.go
+Testing Renovate PR setup.

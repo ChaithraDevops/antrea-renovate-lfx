@@ -1,10 +1,20 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "matchManagers": ["gomod"],
-      "vulnerabilityAlerts": true,
-      "updateTypes": ["patch","minor","major"],
+      "matchManagers": [
+        "gomod"
+      ],
+      "vulnerabilityAlerts": {
+        "enabled": true
+      },
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
       "groupName": "Go Vulnerability Updates"
     }
   ]

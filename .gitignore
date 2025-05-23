@@ -1,0 +1,13 @@
+# Go
+bin/
+*.exe
+*.out
+*.test
+
+# Dependency directories
+vendor/
+
+# OS
+.DS_Store
+Thumbs.db
+
